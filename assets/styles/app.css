@@ -133,14 +133,14 @@ section {
   object-fit: cover;
 }
 
-#certificate-info {
+#info {
   display: flex;
   align-items: center;
   border-bottom: 2px solid #ff0055;
   padding-bottom: 1rem;
 }
 
-#certificate-info img {
+#info img {
   width: 5rem;
   height: 5rem;
   margin-top: 1rem;
@@ -148,11 +148,13 @@ section {
   border: 1px solid #ccc;
 }
 
-#certificate-info ul {
+#info ul {
   list-style: none;
   margin: 0 0 0 1rem;
   padding: 0;
 }
+
+
 
 @media (min-width: 800px) {
   main {
